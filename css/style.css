@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -152,4 +153,146 @@ body {
 .policy a {
   color: #163152;
   text-decoration: none;
+}
+
+.page-header {
+  width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding: 0 55px;
+}
+
+.main-nav {
+  display: flex;
+}
+
+.logo {
+  width: 64px;
+  margin: 0;
+  padding: 0;
+  margin-right: auto;
+}
+
+.site-navigation {
+  width: 559px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.signin {
+  width: 36px;
+  margin-left: 40px;
+}
+
+.main-content {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 55px;
+}
+
+.hero {
+  margin-bottom: 120px;
+}
+
+.hero h1 {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.blog-article {
+  display: flex;
+  justify-content: space-between;
+  width: 1030px;
+  margin: 0 auto;
+}
+
+.blog-article-img {
+  width: 600px;
+}
+
+.blog-article-content {
+  width: 400px;
+}
+
+.blog-article-1 {
+  margin-bottom: 100px;
+}
+
+.blog-article-2 {
+  flex-direction: row-reverse;
+  margin-bottom: 120px;
+}
+
+.news {
+  width: 770px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.news h2 {
+  margin-top: 0;
+  margin-bottom: 55px;
+}
+
+.post figure {
+  margin: 0;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.contacts-img {
+  width: 670px;
+}
+
+.contacts-content {
+  width: 400px;
+}
+
+.contacts-content h2 {
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.main-footer {
+  margin: 0 auto;
+  margin-top: 120px;
+  padding: 60px 0;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 55px;
+}
+
+.footer-logo-wrapper {
+  width: 175px;
+}
+
+.footer-navigation-topics {
+  display: flex;
+  gap: 70px;
+  width: 870px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-navigation-topic h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.footer-navigation {
+  width: 165px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
